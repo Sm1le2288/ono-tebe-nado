@@ -1,4 +1,4 @@
-*,
+ *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -30,5 +30,4 @@ a {
 }
 
 img {
-  width: 100%;
-}
+  width: 100%;}
