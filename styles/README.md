@@ -1,1 +1,1 @@
-git@github.com:Sm1le2288/ono-tebe-nado.git
+https://github.com/Sm1le2288/ono-tebe-nado
