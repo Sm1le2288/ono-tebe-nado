@@ -10,7 +10,8 @@
 }
 
 .header_logo {
-  margin-left: 36px;
+  margin-left: 42px;
+  margin-bottom: 4px;
   padding: 3px 12.5px 8px 2px;
 
   width: 148px;
@@ -32,9 +33,22 @@
   font-size: 18px;
 }
 .header_address {
+  font-style: normal;
+  position: relative;
+  right: 2px;
+
   font-size: 18px;
   padding-left: 184px;
   text-decoration-skip-ink: none;
+}
+.header__address {
+  padding-bottom: 2px;
+  position: relative;
+  bottom: 5px;
+}
+.header___address {
+  position: relative;
+  top: 3px;
 }
 
 .cover {
@@ -60,7 +74,6 @@
 
 .cover_title {
   display: block;
-
   margin: 0;
   padding-top: 165px;
   padding-left: 50px;
@@ -83,10 +96,13 @@
 }
 .aligned-text_center {
   display: block;
+  margin-left: 1px;
+  margin-top: 11px;
   text-align: center;
   letter-spacing: 0.3em;
 }
 .aligned-text_right {
+  margin-top: 6px;
   display: block;
   text-align: end;
   letter-spacing: 0.3em;
@@ -103,16 +119,16 @@
 }
 .cover_text_title {
   font-size: 22px;
-  width: 637px;
+  width: 750px;
   height: 28px;
   color: #ffffff;
   display: block;
   padding-left: 78px;
-  padding-top: 160px;
-  word-spacing: 0.2em;
+  padding-top: 140px;
+  word-spacing: 0.9em;
 }
 .cover_botton {
-  padding-left: 750px;
+  padding-left: 800px;
   padding-bottom: 51px;
   position: relative;
   text-transform: uppercase;
@@ -254,15 +270,15 @@
 .about__logo-image {
   position: relative;
   top: 35px;
-  left: 40px;
-  height: 170px;
-  width: 160px;
+  left: 48px;
+  height: 175px;
+  width: 145px;
 }
 .about__title {
   display: block;
-  margin-top: 18px;
+  margin-top: 12px;
   position: relative;
-  padding-left: 359px;
+  padding-left: 368px;
   height: 47px;
 
   font-size: 40px;
@@ -271,7 +287,7 @@
 .about__text {
   padding-top: 100px;
   position: relative;
-  padding-left: 359px;
+  padding-left: 362px;
   font-family: Raleway;
   font-size: 20px;
   line-height: 24px;
@@ -284,10 +300,20 @@
   padding: 0px 50px 50px 88px;
 }
 .address_footer {
+  position: relative;
+  font-style: normal;
+  right: 30px;
   text-decoration-skip-ink: none;
   font-size: 18px;
 }
+.footer__address {
+  position: relative;
+  top: 9px;
+}
 .footer_menu {
+  position: relative;
+  right: 14px;
+
   font-size: 18px;
 }
 .footer_menu-list {
@@ -299,13 +325,14 @@
 .footer_menu-item {
   text-decoration-skip-ink: none;
 }
+
 .footer_menu-link_active {
   text-decoration: none;
 }
 .footer__social-list-item li {
   position: relative;
-  left: 100px;
-  margin-left: 48px;
+  left: 115px;
+  margin-left: 45px;
   display: inline-block;
   width: 48px;
   height: 48px;
