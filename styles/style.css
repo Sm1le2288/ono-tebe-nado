@@ -27,9 +27,7 @@
   list-style-type: circle;
   display: inline-flex;
 }
-.header_menu-item_active {
-  list-style-type: none;
-}
+
 .header_menu-link {
   font-size: 18px;
 }
