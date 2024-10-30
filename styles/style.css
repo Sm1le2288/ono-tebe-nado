@@ -1,23 +1,28 @@
 .header {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-direction: row;
   padding: 92px 24px 96px 24px;
   justify-items: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .header_logo {
+  margin-left: 36px;
+  padding: 3px 12.5px 8px 2px;
+
   width: 148px;
   height: 105px;
 }
-.header_logo-image {
-  position: relative;
-  right: 80px;
+.header_menu-item_active {
+  text-decoration: none;
 }
 
 .header_menu-list {
+  padding-left: 24px;
   position: relative;
-  right: 35px;
   gap: 32px;
   list-style-type: circle;
   display: inline-flex;
@@ -29,6 +34,8 @@
   font-size: 18px;
 }
 .header_address {
+  font-size: 18px;
+  padding-left: 184px;
   text-decoration-skip-ink: none;
 }
 
@@ -55,6 +62,7 @@
 
 .cover_title {
   display: block;
+
   margin: 0;
   padding-top: 165px;
   padding-left: 50px;
@@ -90,25 +98,27 @@
   letter-spacing: 0;
 }
 .cover_description {
+  display: inline-block;
   position: relative;
   text-transform: uppercase;
   font-size: 22px;
 }
 .cover_text_title {
-  padding-top: 147px;
-  width: 715px;
+  font-size: 22px;
+  width: 637px;
   height: 28px;
-  word-spacing: 10px;
   color: #ffffff;
   display: block;
   padding-left: 78px;
+  padding-top: 160px;
+  word-spacing: 0.2em;
 }
 .cover_botton {
+  padding-left: 750px;
+  padding-bottom: 51px;
   position: relative;
   text-transform: uppercase;
-  bottom: 8px;
-  padding-left: 794px;
-  padding-right: 50px;
+  bottom: 19px;
 }
 .bet-botton {
   border: 1px solid white;
@@ -119,7 +129,7 @@
   font-size: 22px;
 }
 .lots {
-  padding: 176px 25px 146px;
+  padding: 176px 25px 0 25px;
 }
 .lots__heading {
   padding-left: 40px;
@@ -225,13 +235,14 @@
 }
 
 .about {
-  padding: 0px 24px 180px 24px;
-  width: 1052px;
+  padding: 146px 24px 180px 24px;
+  width: 1100px;
 }
 .about__column {
+  padding-top: 35px;
+  padding-left: 47px;
   width: 148px;
   height: 114px;
-  padding-bottom: 193px;
   right: 100px;
 }
 .about__logo {
@@ -250,16 +261,19 @@
   width: 160px;
 }
 .about__title {
+  display: block;
+  margin-top: 18px;
   position: relative;
-  padding-left: 310px;
-  bottom: 100px;
+  padding-left: 359px;
+  height: 47px;
 
   font-size: 40px;
   text-transform: uppercase;
 }
 .about__text {
+  padding-top: 100px;
   position: relative;
-  padding-left: 310px;
+  padding-left: 359px;
   font-family: Raleway;
   font-size: 20px;
   line-height: 24px;
@@ -293,7 +307,7 @@
 .footer__social-list-item li {
   position: relative;
   left: 100px;
-  margin-left: 38px;
+  margin-left: 48px;
   display: inline-block;
   width: 48px;
   height: 48px;
