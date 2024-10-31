@@ -18,6 +18,7 @@
   height: 105px;
 }
 .header_menu-item_active {
+  list-style-type: none;
   text-decoration: none;
 }
 
