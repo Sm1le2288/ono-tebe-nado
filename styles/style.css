@@ -33,14 +33,14 @@
 .header_menu-link {
   font-size: 18px;
 }
-.address{
+.address {
   padding-top: 5px;
   font-style: normal;
   font-size: 18px;
   text-decoration-skip-ink: none;
 
 }
-.header__address  {
+.header__address {
   margin-left: 184px;
 
 }
@@ -301,7 +301,7 @@
   font-size: 18px;
 }
 
-.footer__address{
+.footer__address {
   padding-top: 5px;
 }
 
