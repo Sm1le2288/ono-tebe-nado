@@ -117,8 +117,8 @@
   padding-left: 78px;
   padding-top: 147px;
   padding-right: 79px;
-  padding-bottom: 62px;
   word-spacing: 0.9em;
+  z-index: 1;
 }
 
 .cover_botton {
@@ -263,7 +263,7 @@
 }
 
 .about__title {
-  padding-bottom: 76px;
+  padding-bottom: 75px;
   display: block;
   margin-top: 10px;
   position: relative;
@@ -274,14 +274,16 @@
 
 .about__text {
   padding-top: 24px;
-  position: relative;
-  padding-left: 365px;
+  margin-left: 370px;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
 }
-
+.about__text_second{
+  width: 693px;
+  min-height: 168px;
+}
 .footer {
   display: grid;
 
