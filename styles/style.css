@@ -274,15 +274,15 @@
 
 .about__text {
   padding-top: 24px;
-  margin-left: 370px;
+  margin-left: 365px;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
 }
-.about__text_second {
+.about___text {
   width: 693px;
-  min-height: 168px;
+
 }
 .footer {
   display: grid;
