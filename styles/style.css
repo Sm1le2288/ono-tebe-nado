@@ -265,7 +265,7 @@
 .about__title {
   padding-bottom: 75px;
   display: block;
-  margin-top: 10px;
+  margin-top: 13px;
   position: relative;
   padding-left: 365px;
   font-size: 40px;
@@ -273,7 +273,7 @@
 }
 
 .about__text {
-  padding-top: 13px;
+  padding-top: 24px;
   margin-left: 365px;
   font-family: Raleway, sans-serif;
   font-size: 20px;
